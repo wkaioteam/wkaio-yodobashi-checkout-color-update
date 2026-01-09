@@ -3,5 +3,12 @@
     "date": "2026-01-09T10:30:00Z",
     "download_url": "https://wkaioteam.github.io/wkaio-updates/releases/wkaio-1.0.1.zip",
     "notes": "Fix login, improve speed",
-    "force": false
+    "force": false,
+    "ignore_files": [
+        "config.json",
+        "settings.json",
+        "license.key",
+        ".env",
+        "data/"
+    ]
 }
